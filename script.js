@@ -23,8 +23,12 @@ function search() {
     .catch(error => console.error("Error fetching data:", error));
 }
 
+// This code ends here
+
+// Function to display result for google
+
 function displayResults(results) {
-    var resultsContainer = document.getElementById("google");
+    var resultsContainer = document.getElementById("result-output-google");
     resultsContainer.innerHTML = "";
 
     results.forEach(result => {
@@ -45,3 +49,7 @@ function displayResults(results) {
 }
 
 // This code ends here
+
+// Function to display result for bing
+
+

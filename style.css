@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #AD88C6;
     box-sizing: border-box;
+    background-image: url(google.jpg);
 }
 
 .container {
@@ -52,7 +53,7 @@ body {
     padding: 10px;
     box-sizing: border-box;
     overflow: auto;
-    background-color: #151f2e;
+    background-color: #b17ddb;
     border-radius: 20px;
 }
 
